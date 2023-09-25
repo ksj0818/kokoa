@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Kakao Clone! | Find</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="wrap flex" style="flex-direction: column">
+      <header class="header flex fs-18">
+        <div>
+          <a href="/" class="fwb">홈으로가기 <i class="fa-solid fa-wifi"></i></a>
+        </div>
+        <div>
+          <span style="font-weight: bold">23:59</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-lock"></i>
+          <span style="font-weight: bold">100%</span>
+          <i class="fa-solid fa-battery-full"></i>
+        </div>
+      </header>
+      <div class="flex" style="padding: 32px 24px; justify-content: space-between; align-items: center">
+        <h1 class="fs-32 fwb">Find</h1>
+        <div class="icon-box fs-32" style="width: 100px">
+          <p><i class="fa-solid fa-magnifying-glass"></i></p>
+          <a href="/pages/settings.html" style="width: auto"
+            ><p class="spin"><i class="fa-solid fa-gear"></i></p
+          ></a>
+        </div>
+      </div>
+      <main style="padding: 0 24px">
+        <ul class="flex space-between align-center" style="padding-bottom: 32px; border-bottom: 1px solid lightgray">
+          <li class="flex align-center" style="flex-direction: column; gap: 18px">
+            <p><i class="fa-solid fa-qrcode fs-32"></i></p>
+            <p class="fs-18 fwb">QR Code</p>
+          </li>
+          <li class="flex align-center" style="flex-direction: column; gap: 18px">
+            <p><i class="fa-regular fa-calendar-check fs-32"></i></p>
+            <p class="fs-18 fwb text-center" style="width: 70px">Add by Contacts</p>
+          </li>
+          <li class="flex align-center" style="flex-direction: column; gap: 18px">
+            <p><i class="fa-regular fa-id-badge fs-32"></i></p>
+            <p class="fs-18 fwb">Add by ID</p>
+          </li>
+          <li class="flex align-center" style="flex-direction: column; gap: 18px">
+            <p><i class="fa-regular fa-envelope fs-32"></i></p>
+            <p class="fs-18 fwb">Invite</p>
+          </li>
+        </ul>
+        <div style="padding: 12px 0; border-bottom: 1px solid lightgray; height: 300px">
+          <p class="fs-gray fwb">Recommended Friends</p>
+          <p class="fs-gray fs-18 flex" style="align-items: center; justify-content: center; height: 100%">
+            you have no recommended friends.
+          </p>
+        </div>
+        <div style="border-bottom: 1px solid lightgray">
+          <div class="flex space-between" style="padding: 12px 0">
+            <p class="fs-gray fwb">open chat</p>
+            <p class="fs-gray">Go to Openchat Home <i class="fa-solid fa-chevron-right"></i></p>
+          </div>
+          <ul style="padding: 8px 0">
+            <li class="flex space-between align-center">
+              <div class="chat-text-box">
+                <p class="fwb fs-18" style="line-height: 30px">#BTS</p>
+                <p class="fs-gray">#BTS#ARMY#FRIENDS</p>
+                <p class="fs-gray chat-text-members flex align-center">
+                  <img
+                    src="https://media.istockphoto.com/id/1411572000/ko/%EC%82%AC%EC%A7%84/%EC%8B%A4%EB%82%B4%EC%97%90%EC%84%9C-%EC%B0%8D%EC%9D%80-%EC%A0%8A%EC%9D%80-%EC%95%84%EC%8B%9C%EC%95%84-%EC%97%AC%EC%84%B1%EC%9D%98-%EC%8A%A4%EB%83%85-%EC%83%B7.webp?b=1&s=170667a&w=0&k=20&c=iQaaN53xiEdFOHXtEAt4-GRnl3scutFa5VDWk-2idC4="
+                    alt="img"
+                  />
+                  <span style="display: inline-block; padding-left: 8px">802 members</span>
+                  <span style="color: hotpink">Active</span>
+                </p>
+              </div>
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvc3QlMjBtYWxvbmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                  alt="img"
+                  class="chat-thumbnail"
+                />
+                <p class="chat-like-cnt"><i class="fa-solid fa-heart"></i><span> 326</span></p>
+              </div>
+            </li>
+            <li
+              class="flex space-between align-center"
+              style="margin-top: 8px; padding-top: 8px; border-top: 1px solid lightgray"
+            >
+              <div class="chat-text-box">
+                <p class="fwb fs-18" style="line-height: 30px">#Post malone</p>
+                <p class="fs-gray">#예술가#라이브콘서트#암스테르담</p>
+                <p class="fs-gray chat-text-members flex align-center">
+                  <img
+                    src="https://images.unsplash.com/photo-1614892135411-53c6ac8ce882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9zdCUyMG1hbG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="img"
+                    style="padding-top: 4px"
+                  />
+                  <span style="display: inline-block; padding-left: 8px">2802 members</span>
+                  <span style="color: hotpink">Active</span>
+                </p>
+              </div>
+              <div class="relative">
+                <img
+                  src="https://images.unsplash.com/photo-1609102026400-3c0ca378e4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9zdCUyMG1hbG9uZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt="img"
+                  class="chat-thumbnail"
+                />
+                <p class="chat-like-cnt"><i class="fa-solid fa-heart"></i><span> 634</span></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer class="flex fs-32">
+        <div class="flex space-between" style="width: 100%; padding-bottom: 20px">
+          <a href="/pages/Friends.html"
+            ><p><i class="fa-regular fa-user"></i></p
+          ></a>
+          <a href="/pages/chats.html">
+            <p><i class="fa-regular fa-comment"></i></p
+          ></a>
+          <a href="/pages/find.html"
+            ><p><i class="fa-solid fa-magnifying-glass"></i></p
+          ></a>
+          <a href="/pages/more.html"
+            ><p class="relative">
+              <i class="fa-solid fa-ellipsis"></i
+              ><span class="dot-tomato" style="width: 5px; height: 5px; top: 5px; animation: none"></span></p
+          ></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

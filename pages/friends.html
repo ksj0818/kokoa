@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Kakao Clone! | Friends</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="wrap flex" style="flex-direction: column">
+      <header class="header flex fs-18">
+        <div>
+          <a href="/" class="fwb">홈으로가기 <i class="fa-solid fa-wifi"></i></a>
+        </div>
+        <div>
+          <span style="font-weight: bold">23:59</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-lock"></i>
+          <span style="font-weight: bold">100%</span>
+          <i class="fa-solid fa-battery-full"></i>
+        </div>
+      </header>
+      <div class="flex" style="padding: 32px 24px; justify-content: space-between; align-items: center">
+        <h1 class="fs-32 fwb">Friends</h1>
+        <div class="icon-box fs-32" style="color: darkgray">
+          <p><i class="fa-solid fa-magnifying-glass"></i></p>
+          <p><i class="fa-solid fa-music"></i></p>
+          <a href="/pages/settings.html" style="width: auto"
+            ><p class="spin"><i class="fa-solid fa-gear"></i></p
+          ></a>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="fs-18 fwb"><i class="fa-solid fa-circle-info"></i> <span>Friends' Names Display ></span></p>
+      </div>
+      <main style="padding: 0 24px">
+        <a href="javascript:;">
+          <div class="profile">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1513118172236-00b7cc57e1fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aW5mbHVlbmNlcnxlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&w=500&q=60"
+                alt="img"
+                class="thumbnail"
+              />
+            </div>
+            <div class="profile-text-box" style="justify-content: center">
+              <strong class="fs-32 fwb">홍길동</strong>
+            </div>
+          </div>
+        </a>
+        <div class="flex fs-gray" style="justify-content: space-between">
+          <p class="fwb">Channel</p>
+          <p><i class="fa-solid fa-chevron-up"></i></p>
+        </div>
+        <ul>
+          <li>
+            <a href="javascript:;">
+              <div class="profile">
+                <div>
+                  <img
+                    src="https://images.unsplash.com/photo-1695058866915-a2167e8fac65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="img"
+                    class="thumbnail"
+                  />
+                </div>
+                <div class="flex space-between align-center" style="width: 100%">
+                  <div class="profile-text-box" style="justify-content: center">
+                    <strong class="fs-32 fwb">홍길동</strong>
+                  </div>
+                  <p class="fs-gray">2 <i class="fa-solid fa-chevron-right"></i></p>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </main>
+      <footer class="flex fs-32">
+        <div class="flex space-between" style="width: 100%; padding-bottom: 20px">
+          <a href="/pages/Friends.html"
+            ><p><i class="fa-solid fa-user"></i></p
+          ></a>
+          <a href="/pages/chats.html">
+            <p class="relative"><i class="fa-regular fa-comment"></i><span class="dot-tomato">1</span></p></a
+          >
+          <a href="/pages/find.html"
+            ><p><i class="fa-solid fa-magnifying-glass"></i></p
+          ></a>
+          <a href="/pages/more.html"
+            ><p class="relative">
+              <i class="fa-solid fa-ellipsis"></i
+              ><span class="dot-tomato" style="width: 5px; height: 5px; top: 0"></span></p
+          ></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

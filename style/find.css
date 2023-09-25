@@ -1,0 +1,32 @@
+@import "../style.css";
+
+main .chat-text-box .chat-text-members img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+main .chat-text-box .chat-text-members span:first-of-type:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px;
+  width: 1px;
+  height: 13px;
+  background-color: gray;
+}
+main .chat-thumbnail {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+main .chat-like-cnt {
+  position: absolute;
+  bottom: 8px;
+  right: 6px;
+  width: 65px;
+  padding: 4px 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  color: var(--white-color);
+}

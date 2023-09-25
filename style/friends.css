@@ -1,0 +1,27 @@
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+
+main .profile {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  margin: 24px auto;
+  height: 100px;
+  border-bottom: 1px solid lightgray;
+}
+main .profile .thumbnail {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+main .profile .profile-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  padding-left: 24px;
+}
